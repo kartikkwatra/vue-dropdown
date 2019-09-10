@@ -1,3 +1,3 @@
 import Dropdown from './Dropdown.vue'
 
-export default Dropdown
+export default Vue => Vue.component('dropdown', Dropdown)

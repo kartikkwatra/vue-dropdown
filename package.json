@@ -1,7 +1,7 @@
 {
-  "private": true,
-  "name": "vue-dropdown",
-  "version": "0.0.2",
+  "private": false,
+  "name": "@codinglabs/vue-dropdown",
+  "version": "0.0.3",
   "description": "A Vue dropdown component",
   "author": "Steve Thomas",
   "license": "MIT",
@@ -9,15 +9,10 @@
     "vue",
     "dropdown"
   ],
-  "main": "src/index.js",
+  "main": "./dist/index.cjs.js",
   "scripts": {
-    "dev": "npm run development",
-    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "npm run development -- --watch",
-    "watch-poll": "npm run watch -- --watch-poll",
-    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "prod": "npm run production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "dev": "vue serve Dropdown.vue",
+    "build": "bili --plugin.vue --plugin.vue.css false"
   },
   "files": [
     "dist/*"
@@ -30,8 +25,8 @@
     "vue-clickaway": "^2.2.2"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0",
-    "laravel-mix": "^4.0.16",
+    "bili": "^4.8.1",
+    "rollup-plugin-vue": "^5.0.1",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10"
   }

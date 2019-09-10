@@ -10,9 +10,6 @@
     </div>
 </template>
 
-<style scoped>
-</style>
-
 <script>
     import {mixin as clickaway} from 'vue-clickaway'
 
