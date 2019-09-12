@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@codinglabs/vue-dropdown",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Vue dropdown component",
   "author": "Steve Thomas",
   "license": "MIT",
@@ -9,25 +9,12 @@
     "vue",
     "dropdown"
   ],
-  "main": "./dist/index.cjs.js",
-  "scripts": {
-    "dev": "vue serve Dropdown.vue",
-    "build": "bili --plugin.vue --plugin.vue.css false"
-  },
-  "files": [
-    "dist/*"
-  ],
+  "main": "./src/Dropdown.vue",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codinglabsau/vue-dropdown.git"
   },
   "dependencies": {
     "vue-clickaway": "^2.2.2"
-  },
-  "devDependencies": {
-    "bili": "^4.8.1",
-    "rollup-plugin-vue": "^5.0.1",
-    "vue": "^2.6.10",
-    "vue-template-compiler": "^2.6.10"
   }
 }

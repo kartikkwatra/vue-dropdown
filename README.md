@@ -5,11 +5,11 @@ A dropdown component for Vue 2.x.
 ## Install
 
 ``` bash
-npm install vue-dropdown --save
+npm install @codinglabs/vue-dropdown --save
 ```
 
 ``` javascript
-import Dropdown from 'vue-dropdown';
+import Dropdown from '@codinglabs/vue-dropdown';
 
 export default {
   components: {
