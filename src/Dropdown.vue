@@ -4,7 +4,7 @@
             <slot name="button"><i class="fas fa-caret-down"></i></slot>
         </button>
 
-        <ul v-show="show" class="list-reset absolute block border-t-2 pin-r pin-t w-screen mt-8 border-gray-200 text-sm bg-white z-50 shadow border md:w-full" :class="menuClasses">
+        <ul v-show="show" class="absolute bg-white border border-t-2 border-gray-200 right-0 top-0 mt-8 text-sm z-50 shadow w-screen sm:w-48" :class="menuClasses">
             <slot name="menu"></slot>
         </ul>
     </div>
