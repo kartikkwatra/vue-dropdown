@@ -44,7 +44,7 @@ Customise button
 | text        | String | "Options" | Button text
 | textClasses | String | -         | String containing space separeted classes to style button text
 | menuClasses | String | -         | String containing space separated classes to style menu dropdown
-***
+
 **Doprodown Item**
 | Prop    | Type    | Default | Description |
 | ------- | ------- | ------- | ----------- |
@@ -52,11 +52,10 @@ Customise button
 | inertia | Boolean | false   | Calls $inertia.visit() using the provided href instead of a normal redirect
 
 ## Events
-***
 **Doprodown Item**
 | Event | Description |
 | ----- | ----------- |
-| click | A dropdown item has been clicked. 
+| @click | Dropdown item has been clicked. 
 
 ## Styling
 This plugin uses [Tailwindcss](https://tailwindcss.com/) classes by default. If you would prefer to use your own classes then you can override them using the **textClasses** and **menuClasses** props on the dropdown component.
