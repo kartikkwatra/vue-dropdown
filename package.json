@@ -9,12 +9,15 @@
     "vue",
     "dropdown"
   ],
-  "main": "./src/Dropdown.vue",
+  "main": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codinglabsau/vue-dropdown.git"
   },
   "dependencies": {
     "vue-clickaway": "^2.2.2"
+  },
+  "devDependencies": {
+    "vue": "^2.6.11"
   }
 }
