@@ -45,7 +45,7 @@ Customise button
 | textClasses | String | -         | String containing space separeted classes to style button text
 | menuClasses | String | -         | String containing space separated classes to style menu dropdown
 
-**Doprodown Item**
+**Dropdown Item**
 | Prop    | Type    | Default | Description |
 | ------- | ------- | ------- | ----------- |
 | href    | String  | ''      | Url to redirect to. 
