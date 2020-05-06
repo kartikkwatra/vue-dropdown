@@ -52,7 +52,7 @@ Customise button
 | inertia | Boolean | false   | Calls $inertia.visit() using the provided href instead of a normal redirect
 
 ## Events
-**Doprodown Item**
+**Dropdown Item**
 | Event | Description |
 | ----- | ----------- |
 | @click | Dropdown item has been clicked. 
